@@ -7,7 +7,7 @@
 .menu-container {
     color: #fff;
     background-color: #5995DA;  /* Blue */
-    padding: 20px 0;
+    padding: 20px 5px;
     display: flex;
     justify-content: center;
     
@@ -15,7 +15,6 @@
 
 .menu {
   width: 900px;
-  border: 1px solid #fff; /* for debugging remove later*/
   display: flex;
   justify-content: space-between
 }
@@ -30,7 +29,6 @@
 .header {
   width: 900px;
   height: 300px;
-  border: 1px solid #fff; /* for debugging remove later*/
   display: flex;
   justify-content: space-between;
   align-items: center;
