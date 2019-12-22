@@ -7,14 +7,14 @@
 .menu-container {
     color: #fff;
     background-color: #5995DA;  /* Blue */
-    padding: 20px 5px;
+    padding: 20px 10px;
     display: flex;
     justify-content: center;
     
 }
 
 .menu {
-  width: 900px;
+  width: 100%;
   display: flex;
   justify-content: space-between
 }
@@ -27,9 +27,26 @@
 }
   
 .header {
-  width: 900px;
+  width: 100%;
   height: 300px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+}
+
+.mflogo-small,
+.h44basislogo-small {
+  display: none;
+}
+
+@media only screen and (max-width: 600px){
+  .mflogo-fullsize,
+  .h44basislogo-fullsize {
+    display: none;
+  }
+
+  .mflogo-small,
+  .h44basislogo-small {
+    display: flex;
+  }
 }
