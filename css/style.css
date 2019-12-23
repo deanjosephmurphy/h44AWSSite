@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style-position: inside;
+}
+
 .menu-container {
     color: #fff;
     background-color: #5995DA;  /* Blue */
@@ -14,6 +18,7 @@
 }
 
 .menu {
+  font-size: 1.3em;
   width: 100%;
   display: flex;
   justify-content: space-between
@@ -37,6 +42,46 @@
 .mflogo-small,
 .h44basislogo-small {
   display: none;
+}
+
+.footer {
+  background-color: #5995DA;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-item {
+  font-size: 1.3em;
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+display: flex;
+justify-content: center;
+}
+
+.content {
+  padding-top: 20px;
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: top;
+}
+
+.content-item {
+  width: 299px;
+  font-size: 1.2em;
+  background-color: rgb(245, 236, 236);
+  padding: 10px;
 }
 
 @media only screen and (max-width: 600px){
