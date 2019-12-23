@@ -65,11 +65,11 @@ ul {
 .content-container {
 display: flex;
 justify-content: center;
+margin: 20px;
+width: 90%;
 }
 
 .content {
-  padding-top: 20px;
-  width: 900px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -78,6 +78,7 @@ justify-content: center;
 }
 
 .content-item {
+  margin: 20px;
   width: 299px;
   font-size: 1.2em;
   background-color: rgb(245, 236, 236);
