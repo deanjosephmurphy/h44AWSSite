@@ -56,6 +56,21 @@
                 </ul>
             </p>
         </div>
+        <div class="content-item">
+            <p><strong>Using AWS S3 Bucket for a static website</strong><br>
+                This website is using an AWS S3 Bucket for static website hosting. This is possible because the 
+                website consists of html markup, css and javascript. There is no server side code to run. Your 
+                browser does all the work.
+            </p>
+        </div>
+        <div class="content-item">
+            <p><strong>AWS CodePipeline</strong><br>
+                This website is updated automatically by using a GitHub Repository and AWS CodePipeline.  
+                Every time the master branch is updated in GitHub, CodePipeline deploys the updates automatically
+                to our AWS S3 Bucket.  No need to log into AWS. Just push you updates to the master and everything
+                else happens automatically. A poor man's CI/CD Pipeline.                
+            </p>
+        </div>
     </div> <!-- end of content -->
 </div> <!-- end of content-container -->
 <!-- footer -->    
